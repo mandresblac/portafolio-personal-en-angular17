@@ -1,0 +1,49 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Clases secccion sobre mí */
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.seccion-oscura {
+  background-color: #1b1b32;
+  color: white;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.seccion-titulo {
+  font-size: 2.3rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", system-ui;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+/* Clases secccion experiencia */
+
+.experiencia {
+  padding: 40px;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.experiencia .row div {
+  height: 250px;
+  background-color: purple;
+  border: 3px solid orange;
+}
