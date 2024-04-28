@@ -1,0 +1,34 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonios {
+  padding: 40px 40px 80px 40px;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2.3rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", system-ui;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.carousel {
+  max-width: 700px;
+}
+
+.carousel-item {
+  height: 400px;
+}

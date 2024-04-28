@@ -4,6 +4,7 @@ import { ProyectosComponent } from './pages/proyectos/proyectos.component';
 import { TestimoniosComponent } from './pages/testimonios/testimonios.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
+import { ArticulosComponent } from './pages/articulos/articulos.component';
 
 export const routes: Routes = [
   {
@@ -20,6 +21,11 @@ export const routes: Routes = [
     path: 'proyectos', 
     title: "proyectos", 
     component: ProyectosComponent
+  },
+  {
+    path: 'articulos', 
+    title: "articulos", 
+    component: ArticulosComponent
   },
   {
     path: 'testimonios', 

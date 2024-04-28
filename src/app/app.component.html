@@ -49,6 +49,15 @@
         <li class="nav-item">
           <a
             class="nav-link"
+            routerLink="articulos"
+            [ngClass]="{ active: menuOption === 'articulos' }"
+            (click)="onOption('articulos')"
+            >Articulos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
             aria-disabled="true"
             routerLink="testimonios"
             [ngClass]="{ active: menuOption === 'testimonios' }"

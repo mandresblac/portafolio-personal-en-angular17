@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.articulos {
+  min-height: 500px;
+  padding: 40px;
+}
+
+.seccion-titulo {
+  font-size: 2.3rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", system-ui;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articulos .card-header {
+  font-weight: bold;
+}
