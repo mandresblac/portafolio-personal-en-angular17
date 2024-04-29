@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 section {
   display: flex;
   flex-direction: column;
@@ -31,4 +34,60 @@ section {
 
 .carousel-item {
   height: 400px;
+}
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonio-imagen {
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio-info p {
+  margin-bottom: 0;
+}
+
+.cliente {
+  font-size: 1.2rem;
+}
+
+.cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+@media screen and (max-width: 550px) {
+  .testimonio-info {
+    width: 120px;
+    height: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+
+  .carousel-item .container {
+    /* width: 100%;
+    height: 120%; */
+    margin-top: 85px;
+  }
 }

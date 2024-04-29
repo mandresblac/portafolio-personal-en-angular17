@@ -16,6 +16,8 @@ router-outlet {
   color: rgb(37, 37, 109);
 }
 
+/* Footer */
+
 /* Media Queryes */
 @media screen and (max-width: 767px) {
   .navbar-brand {
