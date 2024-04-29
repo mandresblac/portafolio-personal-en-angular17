@@ -8,6 +8,7 @@ section {
 .articulos {
   min-height: 500px;
   padding: 40px;
+  margin-top: 95px;
 }
 
 .seccion-titulo {
@@ -28,4 +29,10 @@ section {
 
 .articulos .card-header {
   font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .articulos {
+    margin-top: 50px;
+  }
 }

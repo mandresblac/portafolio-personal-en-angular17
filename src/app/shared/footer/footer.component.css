@@ -1,0 +1,59 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+.seccion-oscura {
+  background-color: #1b1b32;
+  color: white;
+}
+
+footer {
+  min-height: 230px;
+}
+
+.footer-logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.footer-texto {
+  font-size: 1.1rem;
+  padding: 20px;
+  /* margin-bottom: 20px; */
+  font-family: "Quicksand", sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 16px;
+  color: #aeaeae;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

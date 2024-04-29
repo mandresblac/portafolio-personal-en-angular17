@@ -12,6 +12,7 @@ section {
 .seccion-clara {
   color: black;
   background-color: white;
+  margin-top: 100px;
 }
 
 .seccion-titulo {
@@ -97,5 +98,11 @@ section {
 
   .overlay i {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .seccion-clara {
+    margin-top: 50px;
   }
 }

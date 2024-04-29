@@ -1,0 +1,30 @@
+router-outlet {
+  background-color: blue;
+}
+
+/* Barra de navegacion */
+.navbar {
+  position: fixed;
+  padding: 1rem;
+  background-color: #ededee;
+  top: 0px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link:hover {
+  color: rgb(37, 37, 109);
+}
+
+/* Media Queryes */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
